@@ -10,7 +10,7 @@ void main(){
     if (age < 0){
         stdout.writeln("Your age is invalid!");
     }else if (age >=0 && age < 10){
-        stdout.writeln("Hey $name, it is good day to play around. Let's play!");
+        stdout.writeln("Hey $name, it is a good day to play around. Let's play!");
     }else if (age>=10 && age <20){
         stdout.writeln("Hey $name, it is great to be a teenager, isn't it?");
     }else if (age>=20 && age <30){
